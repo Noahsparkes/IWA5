@@ -7,7 +7,10 @@ let customers = 1;
 let currency = 'USD';
 let locations = 'RSA';
 
-if (location = 'RSA') { shipping = 400 && currency === 'R' }
+if (location === 'RSA') { 
+	 shipping = 400; 
+	 currency === 'R'; 
+}
 
 if (location = 'NAM')
 shipping = 600 
