@@ -12,9 +12,12 @@ if (location === 'RSA') {
 	 currency === 'R'; 
 }
 
-if (location = 'NAM')
-shipping = 600 
-else shipping = 800
+if (location ==='NAM'){
+   shipping = 600;
+ }else { shipping = 800;
+
+}
+
 
 const shoes = 300 * 1;
 const toys = 100 * 5;
@@ -24,17 +27,16 @@ const pens = 5 * NONE_SELECTED;
 
 
 
-if (shoes + batteries + pens + shirts > 1000 &&  ) {
-	if (location = 'NAM' && customers < 2) {
-			if (location = 'RSA')
-		    shipping = 0 || calcShipping
+if (shoes + batteries + pens + shirts > 1000 && location === 'NAM' && customers < 2) {
+			if (location = 'RSA'){
+		    shipping = 0;
 		}
-	}
+}
 
 
 if (shipping === 0 && customers !== 1) { 
-	console.log(WARNING) 
+	console.log(FREE_WARNING) 
 }
 
-location = 'NK' ? console.log(WARNING) : console.log('price', currency, shoes + batteries + pens + shirts + shipping)
+location = 'NK' ? console.log(BANNED_WARNING) : console.log('price', currency, shoes + batteries + pens + shirts + shipping)
 
