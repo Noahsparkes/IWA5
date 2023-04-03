@@ -5,7 +5,7 @@ const NONE_SELECTED = '0'
 let shipping = null;
 let customers = 1;
 let currency = 'USD';
-let locations = 'RSA';
+let locations ='RSA';
 
 if (location === 'RSA') { 
 	 shipping = 400; 
@@ -22,8 +22,7 @@ const shirts = 150 * NONE_SELECTED;
 const batteries = 35 * 2;
 const pens = 5 * NONE_SELECTED;
 
-shipping = null
-currency = $
+
 
 if (shoes + batteries + pens + shirts > 1000 &&  ) {
 	if (location = 'NAM' && customers < 2) {
