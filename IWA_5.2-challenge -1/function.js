@@ -9,12 +9,13 @@ let locations ='RSA';
 
 if (location === 'RSA') { 
 	 shipping = 400; 
-	 currency === 'R'; 
+	 currency ='R'; 
 }
 
 if (location ==='NAM'){
    shipping = 600;
- }else { shipping = 800;
+ }else { 
+ shipping = 800;
 
 }
 
@@ -28,15 +29,16 @@ const pens = 5 * NONE_SELECTED;
 
 
 if (shoes + batteries + pens + shirts > 1000 && location === 'NAM' && customers < 2) {
-			if (location = 'RSA'){
+			if (location === 'RSA'){
 		    shipping = 0;
 		}
 }
 
 
-if (shipping === 0 && customers !== 1) { 
+if (shipping === 0 && customers !== '1') { 
 	console.log(FREE_WARNING) 
 }
 
 location = 'NK' ? console.log(BANNED_WARNING) : console.log('price', currency, shoes + batteries + pens + shirts + shipping)
+
 
